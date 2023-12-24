@@ -1,13 +1,5 @@
 import React, {useReducer} from "react";
-// Ваше завдання – додати типи для наступних елементів коду:
 
-// RequestStep: Це рядковий літерал.
-
-// State: Цей тип являє собою об'єкт з двома властивостями isRequestInProgress і RequestStep
-
-// Action: Це тип, що представляє можливі дії, які можуть бути відправлені до редюсера.
-
-// Дивіться код і опишіть для нього правильні типи.
 type RequestStep = 'start'| 'pending'| 'finished'| 'idle';
 type State = {
   isRequestInProgress:boolean;
